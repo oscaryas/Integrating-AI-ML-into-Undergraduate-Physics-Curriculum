@@ -39,6 +39,6 @@ You can add as many changes you want, but you're edits aren't saved yet. The com
 Git push adds the latest version of your your edits to the remote or internet repository. Basically updates your code on the web. 
 
 Step 2:
-Once you have succesfully done this I want you to find a friend, and get them to add you as a contributor to their git repository. 
+Once you have succesfully done this I want you to find a classmate, and get them to add you as a contributor to their git repository. 
 You will then git pull their 
 
