@@ -25,7 +25,8 @@ git clone git_repo_link
 
 git clone repo_link adds the files locally to your machine. 
 
-!](images/diagram.png)
+![Diagram of model architecture](Images/git clone.png)
+
 Step 2: Editing Files:
 Locate the cloned folder. The clone folder should be called Hello-World. You can also tell the directory or current folder you are in by using the command "cd" in the terminal. 
 Once you have located the cloned folder, go finish the exercises. 
@@ -49,6 +50,13 @@ Git commit adds all the edits you've stored into that temporary space to the tim
 You can add as many changes you want, but you're edits aren't saved yet. The commit saves all edits in the temp space onto the timeline. 
 
 Git push adds the latest version of your your edits to the remote repository. Basically updates your code on the web. 
+
+
+
+
+
+
+
 
 Step 4:
 Once you have succesfully done this I want you to find a classmate, and get them to add you as a contributor to their git repository. 
