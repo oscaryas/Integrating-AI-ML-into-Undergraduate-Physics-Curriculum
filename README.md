@@ -27,7 +27,7 @@ git clone git_repo_link
 
 git clone repo_link adds the files locally to your machine.
 
-![Image Test](/Images/gitadd.png)
+![Image Test](/Images/git clone.png)
 
 Step 2: Editing Files:
 Locate the cloned folder. The clone folder should be called Hello-World. You can also tell the directory or current folder you are in by using the command "cd" in the terminal. 
