@@ -23,7 +23,7 @@ In order to retrieve files from Github, you will have to use this command:
 
 ```bash
 git clone git_repo_link
-
+'''
 
 git clone repo_link adds the files locally to your machine.
 
