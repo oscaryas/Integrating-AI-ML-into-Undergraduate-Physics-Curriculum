@@ -21,9 +21,11 @@ You will see the link after clicking the green colored button called "Code"
 Since I have the "master" copy, the typical practice is to first **fork** the repository:
 In order to retrieve files from Github, you will have to use this command:
 
+```bash
 git clone git_repo_link
 
-git clone repo_link adds the files locally to your machine. 
+
+git clone repo_link adds the files locally to your machine.
 
 ![Image Test](Hello-World/Images/gitadd.png)
 
