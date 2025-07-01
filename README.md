@@ -27,7 +27,7 @@ git clone git_repo_link
 
 git clone repo_link adds the files locally to your machine.
 
-![Image Test](/Images/git clone.png)
+![Image Test](/Images/git%20clone.png)
 
 Step 2: Editing Files:
 Locate the cloned folder. The clone folder should be called Hello-World. You can also tell the directory or current folder you are in by using the command "cd" in the terminal. 
@@ -51,12 +51,16 @@ In order to change the timeline on Github you:
 git push folder_name. 
 ```
 
+![Image Test](/Images/gitadd.png)
+
 Git add places all edits into a temporary space, before making adding it to your timeline. 
 Git commit adds all the edits you've stored into that temporary space to the timeline that is represented by a node. 
+
+![Image Test](/Images/git%20commit.png)
+
 You can add as many changes you want, but you're edits aren't saved yet. The commit saves all edits in the temp space onto the timeline. 
 
 Git push adds the latest version of your your edits to the remote repository. Basically updates your code on the web. 
-
 
 
 
