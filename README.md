@@ -23,7 +23,7 @@ In order to retrieve files from Github, you will have to use this command:
 
 ```bash
 git clone git_repo_link
-'''
+```
 
 git clone repo_link adds the files locally to your machine.
 
@@ -41,11 +41,15 @@ How do you do that?
 In order to do that you must first update the timeline on your Desktop. 
 
 So:
+```bash
 git add folder_name 
 git commit -m "What you edited"
+```
 
 In order to change the timeline on Github you:
+```bash
 git push folder_name. 
+```
 
 Git add places all edits into a temporary space, before making adding it to your timeline. 
 Git commit adds all the edits you've stored into that temporary space to the timeline that is represented by a node. 
