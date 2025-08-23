@@ -1,4 +1,4 @@
-# Hello-World
+# Hello World
 This is will be your hello world of version control commands and Github repositories. 
 
 What is version control?
