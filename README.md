@@ -88,7 +88,7 @@ For best practices, you don't want to update to the master branch immediately. Y
 Step 5:
 Once you have succesfully done this I want you to find a classmate, provide your github username, and get them to add you as a contributor to their git repository. 
 
-
+![Image Test](/Images/Collaborator.png)
 
 
 
