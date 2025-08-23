@@ -8,7 +8,7 @@ Version control is a method/tool to track changes to files over time. It lets yo
 Github vs Git:
 Git is the tool that tracks your changes locally, while GitHub is a cloud-based platform that hosts Git repositories and enables collaboration with others. So git the actual language that saves changes, GitHub saves changes to the internet. 
 
-Step 0: Setting up and forking. 
+Step 0 Setting up and Forking: 
   1. Set up an Github account
      
   3. Make sure you are logged into the Github account. You should see a button that says Fork in the top-right corner of the page. Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please. In the new page that comes up, confirm that you want to create the fork and your own Hello-World repository will be created on GitHub!
@@ -19,16 +19,16 @@ Step 0: Setting up and forking.
   
   6. Now find a partner and agree upon which "fork" or github repository you will be updating. It doesn't really matter who's it is. 
 
-Step 1: Adding Collaborators
+Step 1 Adding Collaborators:
 
   1. On the agreed upon repository go to settings. (Should look something like the image below)
 ![Image Test](/Images/Collaborators.png)  
 
-  3. Click on Access on sidebar and then click collaborators.
+  2. Click on Access on sidebar and then click collaborators.
   
-  4. Type the username of the collaborator and add to repository.
+  3. Type the username of the collaborator and add to repository.
   
-  5.  The collaborator should then receive an email and accept invitation. 
+  4. The collaborator should then receive an email and accept invitation. 
 
 Step 2: Retrieving Files
 After you have forked a new Git Repository on Github, you need a way to **copy it to your local machine**. (Desktop)
@@ -43,14 +43,29 @@ git clone repo_link adds the files locally to your machine.
 
 ![Image Test](/Images/git%20clone.png)
 
-Step 3: Editing Files:
+Step 3 Cloning Files:
 Locate the cloned folder. The clone folder should be called Hello-World. 
 Once you have located the cloned folder, go finish the exercises. 
 
 Once you finish, you will go on to the next step. 
 
-Step 4:
-READ ALL OF STEP 4 BEFORE YOU RUN TERMINAL COMMANDS
+Step 4 Creating Your Own Branch: 
+Since you have a local copy of the exercises, we don’t want to tamper with the main branch. Think of the main branch as the official timeline of the project — you don’t want to accidentally break it.
+
+Instead, create and switch to your own branch by running:
+
+```bash
+git checkout -b your_name
+```
+This does two things at once:
+
+a) Creates a new branch called your_name (you can replace this with your own name or a short description of what you’re working on).
+b) Switches you onto that branch, so all future edits you make will only affect this branch.
+
+Now you’re working on your own “timeline” of the project. When you’re ready, you can push this branch to GitHub for your collaborator to review and merge into the main branch.
+
+Step 5:
+READ ALL OF STEP 5 BEFORE YOU RUN TERMINAL COMMANDS
 
 So you've edited the file. You now want to save your changes and upload those changes to Github. 
 How do you do that?
@@ -83,12 +98,9 @@ Git push adds the latest version of your your edits to the remote repository (Gi
 
 So in terms of word doc, it would be like uploading the current version you have to OneDrive for example. 
 
-For best practices, you don't want to update to the master branch immediately. You might want to create a new branch, a temporary timeline, to test and see if the changes you've made are correct before updating the master branch. Since you and your classmate will eventually be updating the main branch, if one of you updates the main branch, the other has to pull and get the most recent version, so in this case its fine. 
+Step 6:
 
-Step 5:
-Once you have succesfully done this I want you to find a classmate, provide your github username, and get them to add you as a contributor to their git repository. 
 
-![Image Test](/Images/Collaborator.png)
 
 
 
