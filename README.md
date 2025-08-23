@@ -98,11 +98,18 @@ Git push adds the latest version of your your edits to the remote repository (Gi
 
 So in terms of word doc, it would be like uploading the current version you have to OneDrive for example. 
 
-Step 6:
+Step 6 Merging to Main Branch:
+![Image Test](/Images/Merging.png)
 
+Go to the Github and you should see something similar to the image above. If you don't you should check if you are currently on the main branch or on your_name branch on github. 
+You should then click Compare and Pull Request.
 
+This will open up a page where you can:
+  a) Compare the changes you made on your branch against the main branch.
+  b) Add a short description of what you changed (this helps collaborators understand your edits).
+  c) Submit the pull request.
 
-
+After submitting, your collaborator can review the changes. Once everything looks good, the pull request can be merged into the main branch.
 
 
 
