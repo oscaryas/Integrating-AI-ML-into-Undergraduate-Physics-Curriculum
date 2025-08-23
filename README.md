@@ -43,14 +43,14 @@ git clone repo_link adds the files locally to your machine.
 
 ![Image Test](/Images/git%20clone.png)
 
-Step 4: Editing Files:
+Step 3: Editing Files:
 Locate the cloned folder. The clone folder should be called Hello-World. 
 Once you have located the cloned folder, go finish the exercises. 
 
 Once you finish, you will go on to the next step. 
 
-Step 3:
-READ ALL OF STEP 3 BEFORE YOU RUN TERMINAL COMMANDS
+Step 4:
+READ ALL OF STEP 4 BEFORE YOU RUN TERMINAL COMMANDS
 
 So you've edited the file. You now want to save your changes and upload those changes to Github. 
 How do you do that?
@@ -83,17 +83,9 @@ Git push adds the latest version of your your edits to the remote repository (Gi
 
 So in terms of word doc, it would be like uploading the current version you have to OneDrive for example. 
 
-For best practices, you don't want to update to the master branch immediately. You might want to create a new branch, a temporary timeline, to test and see if the changes you've made are correct before updating the master branch. Since you and your classmate will eventually be updating the main branch, if one of you updates the main branch, the other has to 
+For best practices, you don't want to update to the master branch immediately. You might want to create a new branch, a temporary timeline, to test and see if the changes you've made are correct before updating the master branch. Since you and your classmate will eventually be updating the main branch, if one of you updates the main branch, the other has to pull and get the most recent version, so in this case its fine. 
 
-
-
-For best practices you don't want to update to the master branch immediately. You might want to create a new branch, a temporary timeline, to test and see if the changes you've made are correct before updating the master branch. 
-
-![Image Test](/Images/branching.png)
-
-
-
-Step 4:
+Step 5:
 Once you have succesfully done this I want you to find a classmate, provide your github username, and get them to add you as a contributor to their git repository. 
 
 
